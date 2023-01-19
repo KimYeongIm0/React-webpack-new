@@ -13,7 +13,7 @@ module.exports = {
         './webpack/src/index.jsx',
     
     output: {
-        path: path.join(__dirname,'dist'), // './dist'의 절대 경로를 리턴합니다.
+        path: path.join(__dirname,'docs'), // './dist'의 절대 경로를 리턴합니다.
         filename: 'app.js',
     },
     
